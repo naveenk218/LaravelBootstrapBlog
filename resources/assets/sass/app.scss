@@ -1,0 +1,59 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Font Awesome
+@import "node_modules/font-awesome/scss/font-awesome";
+
+.navbar-laravel {
+  background-color: #3a3a3a;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  padding: 0;
+  height: 50px;
+}
+
+main.py-4 {
+  padding-top: 80px !important;
+}
+
+.navbar-brand {
+  color: #fff !important;
+  margin-left: 0.32rem;
+}
+
+li.nav-item:hover {
+  background: #fff;
+  color: #3a3a3a;
+}
+
+.navbar .container {
+  height: 100%;
+}
+
+.navbar-collapse {
+  // height: 100%;
+  .navbar-nav {
+    height: 100%;
+    line-height: 30px;
+    .nav-link {
+      color: #fff;
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-collapse {
+    background: #3a3a3a;
+  }
+}
