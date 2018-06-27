@@ -19,6 +19,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    {{--<link rel="stylesheet" href="https://getbootstrap.com/docs/3.3/examples/blog/blog.css" />--}}
 </head>
 <body>
     <div id="app">

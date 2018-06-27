@@ -12,7 +12,15 @@
 */
 
 Route::get('/', function () {
+    return view('post');
+});
+
+Route::get('/index', function () {
     return view('test');
+});
+
+Route::get('/mail', function() {
+    Mail::to('pnaveencs@gmail.com')->send(new \App\Mail\SendDonationAmountMail());
 });
 
 Auth::routes();
